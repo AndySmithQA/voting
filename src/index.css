@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  width: 60px;
+}
+
+.card{
+  float: left;
+  border: 1px black solid;
+  width: 33%;
+  text-align: center;
+  padding-top: 10px;;
+}
+
+
+.head-title{
+
+  background-color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40pt;
+  padding-left: 50px;
+}
+
+.head-content{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10pt;
+  padding-left: 50px;
+}
+
+.head {
+  height: 200px;
+  background-color: grey;
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "_id": 1,
+        "name": "Django",
+        "logo": "django.webp",
+        "rating": "3rd",
+        "votes":0
+    },
+    {
+        "_id": 2,
+        "name": "JavaScript",
+        "logo": "JS.png",
+        "rating": "8th",
+        "votes":0
+    },
+    {
+        "_id": 3,
+        "name": "Python",
+        "logo": "python.png",
+        "rating": "1st",
+        "votes":0
+    }
+]
