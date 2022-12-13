@@ -14,7 +14,7 @@ function VotingCard(props){
                 <p>Rating: {lang.rating}</p>
             </div>
             <button onClick={() => incrimentVoteCount(lang._id)}>
-                Vote
+                +1
             </button>
             <p>Vote Count: {lang.votes}</p>
         </div>
