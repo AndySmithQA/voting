@@ -15,6 +15,15 @@ img {
   margin: 1.1px;
 }
 
+button {
+  border-color: green;
+  border-radius: 4px;
+  background-color: white;
+  color: green;
+  height: 30px;
+  width: 50px;
+
+}
 
 .head-title{
     font-size: 40pt;
@@ -34,12 +43,3 @@ img {
   padding-top: 50px;
 }
 
-button {
-  border-color: green;
-  border-radius: 4px;
-  background-color: white;
-  color: green;
-  height: 30px;
-  width: 50px;
-
-}

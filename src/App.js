@@ -29,15 +29,16 @@ function App() {
     <div>
       {langs.map((lang) => {
         return (
-          <VotingCard lang={lang}
+          <VotingCard lang={lang} key={lang._id}
           incrimentVoteCount={(langId) => incrimentVoteCount(langId)}
           />
         )
       })}
     </div>
-    
   </content>
   );
 }
 
 export default App;
+
+

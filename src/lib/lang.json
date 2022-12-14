@@ -19,19 +19,5 @@
         "logo": "python.png",
         "rating": "1st",
         "votes":0
-    },
-    {
-        "_id": 4,
-        "name": "Java",
-        "logo": "Java.png",
-        "rating": "4th",
-        "votes":0
-    },
-    {
-        "_id": 5,
-        "name": "C++",
-        "logo": "C++.png",
-        "rating": "5th",
-        "votes":0
     }
 ]
