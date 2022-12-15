@@ -1,41 +1,40 @@
-import React, { useEffect, useState} from "react";
+import React, { useState} from "react";
 import VotingCard from "./components/VotingCard";
 import langsJson from "./lib/lang.json";
 import Header from "./components/Header";
 
 
 function App() {
-  let [langs, setLangs] = useState([]);
+  const [langs, setLangs] = useState(langsJson);
 
-  useEffect(() => {
-    setLangs(langsJson);
-  }, []);
 
-  function incrimentVoteCount(langId) {
-    langs = langs.map((lang) => {
+  function handleIncrementVoteCount(langId) {
+    const updatedLangs = langs.map((lang) => {
       if (lang._id === langId) {
         lang.votes = lang.votes + 1;
       }
       return lang
     });
-    setLangs(langs)
+    setLangs(updatedLangs)
   }
 
 
 
   return (
-    <content>
+    <div>
       <Header />
     <div>
       {langs.map((lang) => {
         return (
-          <VotingCard lang={lang} key={lang._id}
-          incrimentVoteCount={(langId) => incrimentVoteCount(langId)}
+          <VotingCard 
+          lang={lang} 
+          incrimentVoteCount={handleIncrementVoteCount}
+          key={lang._id}
           />
         )
       })}
     </div>
-  </content>
+  </div>
   );
 }
 

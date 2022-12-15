@@ -2,7 +2,7 @@ import React from "react";
 
 
 function VotingCard(props){
-    let {lang, incrimentVoteCount} = props;
+    const {lang, incrimentVoteCount} = props;
 
     return(
         <div className="card">
